@@ -32,7 +32,7 @@
 <ul>
   <li> 1. npm install</li>
   <li> 2. npm install -g @angular/cli (Instalção do angular globalmente caso não tenha instalado)</li> 
-  <li> 3. npx json-server produtos.json (Dentro da pasta da API Json Server para buildar o banco de dados simulado) </li> 
-  <li> 4. ng server (Execução da aplicação angular dentro da pasta do projeto)</li>
+  <li> 3. npx json-server produtos.json (Execução da api dentro da pasta da "api-json_server_backend" para buildar o banco de dados simulado) </li> 
+  <li> 4. ng server (Execução da aplicação angular dentro da pasta raiz do projeto"Cadastro_de_Produtos")</li>
 </ul>
 
