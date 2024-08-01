@@ -1,0 +1,44 @@
+{
+  "produtos": [
+    {
+      "id": 3,
+      "nome": "Samsung A51",
+      "fabricante": "Samsung",
+      "tipo": "Celular",
+      "quantidade": 7,
+      "valor": 549.9
+    },
+    {
+      "id": 4,
+      "nome": "Iphone Pro Max 15",
+      "fabricante": "Apple",
+      "tipo": "Celular",
+      "quantidade": 5,
+      "valor": 4999.9
+    },
+    {
+      "id": 5,
+      "nome": "Moto G10",
+      "fabricante": "Motorola",
+      "tipo": "Celular",
+      "quantidade": 9,
+      "valor": 890.9
+    },
+    {
+      "id": 6,
+      "nome": "Lenovo ideapad 330",
+      "fabricante": "Lenovo",
+      "tipo": "Notebook",
+      "quantidade": 5,
+      "valor": 1399.9
+    },
+    {
+      "id": 7,
+      "nome": "Rtx 3060 12GB",
+      "fabricante": "Gigabyte",
+      "tipo": "Placa de video",
+      "quantidade": 3,
+      "valor": 1990
+    }
+  ]
+}

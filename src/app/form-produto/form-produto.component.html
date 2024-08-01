@@ -1,0 +1,42 @@
+<br>
+<!-- FORMULÁRIO -->
+<form [formGroup]="formulario">
+    <input type="number" class="form-control" formControlName="id" readonly id="input-id"><!--Input readonly são apenas para leituras-->
+    <input type="text" class="form-control" formControlName="nome" placeholder="Modelo">
+    <input type="text" class="form-control" formControlName="fabricante" placeholder="Fabricante">
+    <input type="text" class="form-control" formControlName="tipo" placeholder="Tipo">
+    <input type="number" class="form-control" formControlName="quantidade" placeholder="Quantidade">
+    <input type="number" class="form-control" formControlName="valor" placeholder="Preço">
+
+    <input type="button" class="btn btn-primary" value="Cadastrar" *ngIf="btn" (click)="cadastrar()"><!--Quando o btn for verdadeiro, mostrara apenas o botao cadastrar caso contrario não mostrara o botão-->
+    <input type="button" class="btn btn-primary" value="Alterar" *ngIf="!btn" (click)="alterar()"> 
+    <input type="button" class="btn btn-primary" value="Remover" *ngIf="!btn" (click)="remover()"> 
+</form>
+
+<!-- TABELA -->
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>#</th>
+            <th>Modelo</th>
+            <th>Fabricante</th>
+            <th>Tipo</th>
+            <th>Quantidade</th>
+            <th>Preço</th>
+            <th>Selecionar</th>
+        </tr>
+    </thead>
+
+    <tbody>
+        <tr *ngFor="let v of vetor; let indice = index">
+            <td>{{indice+1}}</td>
+            <td>{{v.nome}}</td>
+            <td>{{v.fabricante}}</td><!---->
+            <td>{{v.tipo}}</td><!---->
+            <td>{{v.quantidade}}</td><!---->
+            <td>{{v.valor}}</td>
+            <td><button class="btn btn-primary" (click)="selecionarProduto(indice)">Selecionar</button></td>
+        </tr>
+    </tbody>
+</table><br><br><br>
+
