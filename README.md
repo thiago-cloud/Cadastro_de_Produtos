@@ -29,10 +29,10 @@
   </tr>
 <table>
 <h2>Como executar a aplicação:</h2>
-<ul>
-  <li> 1. Abra o terminal e execute o comando `git clone https://github.com/thiago-cloud/Cadastro_de_Produtos.git` em um local de sua preferência. Em seguida dentro da raiz do projeto digite`npm install`</li>
-  <li> 2. `npm install -g @angular/cli` (Instalção do angular globalmente caso não tenha instalado)</li> 
-  <li> 3. `npx json-server produtos.json` (Execução da api dentro da pasta da "api-json_server_backend" para buildar o banco de dados simulado) </li> 
-  <li> 4. `ng server` (Execução da aplicação angular dentro da pasta raiz do projeto"Cadastro_de_Produtos")</li>
-</ul>
+
+  1. Abra o terminal e execute o comando `git clone https://github.com/thiago-cloud/Cadastro_de_Produtos.git` em um local de sua preferência. Em seguida dentro da raiz do projeto digite`npm install`
+  2. `npm install -g @angular/cli` (Instalção do angular globalmente caso não tenha instalado)
+  3. `npx json-server produtos.json` (Execução da api dentro da pasta da "api-json_server_backend" para buildar o banco de dados simulado)
+  4. `ng server` (Execução da aplicação angular dentro da pasta raiz do projeto"Cadastro_de_Produtos")
+
 
